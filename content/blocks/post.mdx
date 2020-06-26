@@ -1,0 +1,13 @@
+
+
+<!-- path: "post/5614672142/html5"
+date: "2011-05-18"
+title: "HTML5 Drupal 8 Initiative"
+tumblr: "5614672142"
+comments: true -->
+
+export const Post = ({ title, meta, children }) => (
+  <Block src="page" title={title} meta={meta}>
+    {children}
+  </Block>
+)

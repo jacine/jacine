@@ -1,0 +1,33 @@
+---
+slug: "post/eva"
+date: "2019-09-16"
+title: "Eva Prism"
+---
+
+Let's test some syntax.
+
+This is a code block... So what the heck is it doing?
+
+```jsx
+return (
+  <Layout>
+    <article className="post">
+      <h1 className="post__title">{post.frontmatter.title}</h1>
+      <div
+        className="post__content"
+        dangerouslySetInnerHTML={{ __html: post.html }}
+      />
+      {postDate}
+      {comments}
+    </article>
+  </Layout>
+)
+```
+
+```scss
+main {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 65vw) 1fr;
+  padding: 1rem;
+}
+```
