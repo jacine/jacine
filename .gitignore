@@ -69,3 +69,7 @@ yarn-error.log
 .yarn-integrity
 
 .netlify/
+
+# VS Code stuff
+.vscode
+.favorites.json
