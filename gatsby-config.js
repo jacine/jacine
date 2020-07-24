@@ -7,8 +7,9 @@ module.exports = {
     siteUrl: process.env.SITE_URL || "http://localhost:8000",
   },
   plugins: [
-    "@reflexjs/gatsby-theme-core",
-    "@reflexjs/gatsby-theme-base",
-    "@reflexjs/gatsby-theme-post"
+    `@reflexjs/gatsby-theme-core`,
+    `@reflexjs/gatsby-theme-base`,
+    `@reflexjs/gatsby-theme-post`,
+    `gatsby-plugin-theme-helpers`
   ],
 }
