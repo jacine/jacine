@@ -16,7 +16,7 @@
     "@reflexjs/gatsby-theme-nav": "^0.1.10",
     "@reflexjs/gatsby-theme-post": "^0.3.4",
     "disqus-react": "^1.0.9",
-    "gatsby": "^2.24.10",
+    "gatsby": "^4.25.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
